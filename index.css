@@ -1,0 +1,105 @@
+#header-logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav-brand p {
+    font-family: "Niconne", sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.nav-link {
+    border-right: 1px solid whitesmoke;
+}
+
+.navbar-nav li:last-child .nav-link {
+    border: none;
+}
+
+.show ul li .nav-link, .collapsing ul li .nav-link {
+    border :none;
+}
+
+.carousel-item img {
+    height: 75vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: 3;
+}
+
+/* .carousel-item {
+    position: relative; //will cause error
+}
+ */
+.overlay { 
+    /* overlay html must be before image to prevent sliding error
+    position must be absolute too */
+    position: absolute;
+    width: 100vw;
+    height: 75vh;
+    background-color:teal ;
+    opacity: .7;
+    z-index: 2;
+}
+
+.carousel-caption {
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#slides {
+    box-shadow: 10px 0px 5px 2px #888888;
+}
+
+#about-us div div img {
+    width: 100%;
+    border: 5px double black;
+}
+
+.hr {
+    border-top: 1px solid grey;
+    opacity: 0.5;
+    width: 35%;
+}
+
+#product-header div {
+    width: 35%;
+    opacity: 0.5;
+}
+
+.class-img-top {
+    height: 35%;
+    object-fit: cover;
+}
+
+.card-img-top:hover{
+    box-shadow: 0px 15px 26px rgba(200,200,200,0.5);
+    transform: scale(1.025);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+#instagram-icon {
+    font-size: 5em;
+}
+
+@media (max-width: 768px){
+    .hr {
+        width: 100%;
+    }
+
+    #product-header div {
+        width: 100%;
+    }
+}
+
+
+

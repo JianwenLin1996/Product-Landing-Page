@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Niconne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"> </script>
+
+</head>
+<body>
+    <!-- Nav bar -->
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="nav-brand row align-items-center" href="#slides">
+                    <img id="header-logo" class="img-responsive" src="images/homepage/logo.png" alt="logo"/>
+                    <p class="text-light ml-3 h1">thoughtfulresinart</p>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li clas="nav-item active">
+                        <a class="nav-link text-light pr-4 pl-4" href="#slides"> Home </a>
+                    </li>
+                    <li clas="nav-item">
+                        <a class="nav-link text-light pr-4 pl-4" href="#about-us"> About </a>
+                    </li>
+                    <li clas="nav-item">
+                        <a class="nav-link text-light pr-4 pl-4" href="#product"> Products </a>
+                    </li>
+                    <li clas="nav-item">
+                        <a class="nav-link text-light pr-4 pl-4" href="#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div id="slides" class="carousel slide carousel-fade" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1" class="active"></li>
+            <li data-target="#slides" data-slide-to="2" class="active"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption">
+                    <h1 class="display-2 font-weight-normal">thoughtfulresinart</h1>
+                    <h3 class="font-weight-normal font-italic">Be Exclusive, Be Creative</h3>
+                </div>
+                <div class="overlay"></div>
+                <img class="d-block" src="images/homepage/slider_image_1.jpg" alt="slider-img-1">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-flex flex-column align-items-baseline">
+                    <h1 class="display-2 font-weight-normal">We Care</h1>
+                    <h3 class="font-weight-normal font-italic">Give your love ones an unforgettable surprise</h3>
+                </div>
+                <div class="overlay"></div>
+                <img  class="d-block" src="images/homepage/slider_image_2.jpg" alt="slider-img-2">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-flex flex-column align-items-end">
+                    <h1 class="display-2 font-weight-normal">Unlimited Possibilities</h1>
+                    <h3 class="font-weight-normal font-italic">Make your ideas come true</h3>
+                </div>
+                <div class="overlay"></div>
+                <img  class="d-block" src="images/homepage/slider_image_3.jpg" alt="slider-img-3">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+
+    <div id="about-us" class="container padding mt-4">
+        <div class="row padding">
+            <div class="col-12 mb-2">
+                <h1 class=" display-2 font-weight-bold"> About Us </h1>
+                <div class="hr my-4"></div>
+            </div>
+
+            <div class="col-md-8 col-sm-12">
+                <p class="text-justify">
+                    We are a group of resin art enthusiasts. We are a group of resin art enthusiasts.
+                    We are a group of resin art enthusiasts. We are a group of resin art enthusiasts.
+                    We are a group of resin art enthusiasts. We are a group of resin art enthusiasts.
+                    We are a group of resin art enthusiasts. We are a group of resin art enthusiasts.
+                    </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <img src="images/homepage/about_us.jpg" alt="about-us">
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Products -->
+    <div id="product" class="container-fluid padding mt-4 bg-dark text-light">
+        <div id="product-header" class=" d-flex flex-column align-items-center">
+            <h1 class="display-2 font-weight-bold">Our Products</h1>
+            <div class=" border-top border-light mb-4"></div>
+        </div>
+        <div class ="row text-center padding">
+            <div class ="col-xs-12 col-sm-6 col-md-4 p-4 ">
+                <div class="card bg-dark">
+                    <img class="card-img-top rounded" src="images/homepage/product_category_1.jpg" alt="product-category-1">
+                    <div class="card-body ">
+                        <h4 class="card-title"> Coaster </h4>
+                    </div>
+                </div>
+            </div>
+            <div class ="col-xs-12 col-sm-6 col-md-4 p-4">
+                <div class="card bg-dark">
+                    <img class="card-img-top rounded" src="images/homepage/product_category_2.jpg" alt="product-category-2">
+                    <div class="card-body">
+                        <h4 class="card-title"> Pendant </h4>
+                    </div>
+                </div>
+            </div>
+            <div class ="col-xs-12 col-sm-6 col-md-4 p-4">
+                <div class="card bg-dark">
+                    <img class="card-img-top rounded" src="images/homepage/product_category_3.jpg" alt="product-category-3">
+                    <div class="card-body">
+                        <h4 class="card-title"> Keychains </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div id="contact" class="container-fluid padding bg-secondary text-white">
+        <div class="row text-left ">
+            <div class="col-md-12 col-lg-6 mt-2 pb-0 p-lg-5">
+                <h4 class ="display-4 font-weight-normal mb-2">
+                    Contact Us
+                </h4>
+                <form action="#">
+                <div clas="form-group">
+                    <label class = "font-weight-light mb-2" for="your-name">
+                        Your Name
+                    </label>
+                    <input type="text" class="form-control" id="your-name" name="your-name" placeholder="How should we call you?">
+                </div> 
+
+                <div clas="form-group">
+                    <label class = "font-weight-light mb-2" for="your-mind">
+                        Your Message
+                    </label>
+                    <textarea class="form-control" id="your-mind" name="your-mind" rows="3" placeholder="What's in your mind?"></textarea>
+                </div> 
+                <br>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-info mb-2"> Send </button>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-6 mt-0 mt-lg-2 pt-0 p-lg-5 ">
+                <div class=" border-top border-light mb-4 d-lg-none"></div>
+
+                <h4 class="display-4 font-weight-normal mb-2">
+                    Follow Us
+                </h4>
+                <div class="d-flex align-items-center">
+                    <a href="#"><i id="instagram-icon" class="fa fa-instagram text-light m-4"></i></a>
+                    <a href="https://www.instagram.com/thoughtfulresinart_?r=nametag"> <h4 class="font-weight-light mb-2 text-light"><i>@thoughtfulresinart</i></h4> </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
